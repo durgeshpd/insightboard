@@ -42,35 +42,40 @@ A full-stack analytics dashboard for visualizing exam results using Node.js, Exp
 
 ---
 
-## 🚀 Getting Started
+## 📦 Setup Instructions
 
-### 📁 Prerequisites
-- Node.js
-- PostgreSQL
+### 1. Clone the repository
 
-### 🔧 Backend Setup
-1. Clone the repository
-2. Go to `/backend` folder
-3. Create a `.env` file and add:
-PG_URI=your_postgres_connection_string
+```bash
+~ git clone https://github.com/your-repo/insightboard
+~ cd insightboard
+
+2. Backend Setup
+
+~ cd server
+~ npm install
+
+Create a .env file inside server/:
+
+MONGO_URI=your_mongodb_connection_string
 PORT=5000
+JWT_SECRET=your_secret_key
 
-4. Install dependencies:
+Start the backend server:
 
-- npm install
-Start the server:
+~ node server.js
 
-- npm run dev
+3. Frontend Setup
 
-💻 Frontend Setup
-Go to /frontend folder
+~ cd client
+~ npm install
+~ npm run dev
 
-Install dependencies:
+4. Access the App
+Frontend: http://localhost:5173
+Backend API: http://localhost:5000
 
-- npm install
-Start the development server:
-
-- npm run dev
+```
 
 📊 Sample Charts
 ✅ Pie Chart – Passed vs Failed
