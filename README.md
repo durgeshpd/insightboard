@@ -47,7 +47,7 @@ A full-stack analytics dashboard for visualizing exam results using Node.js, Exp
 ### 1. Clone the repository
 
 ```bash
-~ git clone https://github.com/your-repo/insightboard
+~ git clone https://github.com/durgeshpd/insightboard.git
 ~ cd insightboard
 
 2. Backend Setup
