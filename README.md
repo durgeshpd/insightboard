@@ -78,6 +78,7 @@ Backend API: http://localhost:5000
 ```
 
 📊 Sample Charts
+
 ✅ Pie Chart – Passed vs Failed
 
 📊 Bar Chart – Total Exams, Passed, Failed
