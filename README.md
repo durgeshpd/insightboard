@@ -47,13 +47,13 @@ A full-stack analytics dashboard for visualizing exam results using Node.js, Exp
 ### 1. Clone the repository
 
 ```bash
-~ git clone https://github.com/durgeshpd/insightboard.git
-~ cd insightboard
+git clone https://github.com/durgeshpd/insightboard.git
+cd insightboard
 
 2. Backend Setup
 
-~ cd server
-~ npm install
+cd server
+npm install
 
 Create a .env file inside server/:
 
@@ -63,13 +63,13 @@ JWT_SECRET=your_secret_key
 
 Start the backend server:
 
-~ node server.js
+node server.js
 
 3. Frontend Setup
 
-~ cd client
-~ npm install
-~ npm run dev
+cd client
+npm install
+npm run dev
 
 4. Access the App
 Frontend: http://localhost:5173
